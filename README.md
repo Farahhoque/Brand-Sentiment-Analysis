@@ -1,24 +1,27 @@
 # Brand-Sentiment-Analysis
 
-## Introduction
-This project entails the development of a web scraper/crawler using the Python package 'Beautiful Soup' to fetch information from the forum Edmunds Forums - Midsize Sedans. A total of 19,749 posts were scraped and compiled into a CSV file for further analysis.
+## Overview
+This project analyzes consumer perceptions of midsize sedan brands, based on data scraped from the Edmunds forum. Utilizing Python and the BeautifulSoup package, we extracted and analyzed 19,749 posts to uncover insights into brand popularity, consumer sentiment, and the attributes most valued by consumers.
 
-## Summary of Results
-Most Frequently Mentioned Brands
-The top 10 most frequently mentioned brands in the forum discussions are summarized in Table 1. Additionally, a bar chart (Figure 1) illustrates the frequency distribution of these brands.
+## Objective
+The primary goal of this project is to understand consumer perceptions and the factors driving brand popularity among midsize sedans. By analyzing forum discussions, we aim to identify the most frequently mentioned brands, assess sentiment towards these brands, and highlight the attributes consumers care about the most.
 
-# Lift Values for Top 10 Brands
-Table 2 presents the lift values for the top 10 brands, indicating the degree of association between them.
+## Key Findings
+Top Brands: Honda, Mazda, and Ford are the most mentioned brands, with Honda leading the pack.
 
-# Brand Analysis on Hyundai and BMW
-Detailed insights are provided for Hyundai and BMW, including their positioning in the MDS map and recommendations for brand managers.
+# Brand Perception:
+Hyundai is perceived uniquely, and associated strongly with design, value, and comfort.
+BMW and Audi are closely mentioned together, indicating competition in luxury or performance spaces.
+# Most Valued Attributes: 
+Design, performance, value, comfort, and efficiency are the top attributes discussed by consumers.
+# Aspirational Brand: 
+Toyota emerged as the most aspirational brand, particularly valued for its environmental impact.
+## Dataset
+The dataset comprises 19,749 forum posts from the Edmunds forum, focusing on midsize sedans. The data were scraped using BeautifulSoup and have been compiled into a CSV file for analysis.
 
-# Most Frequently Mentioned Attributes of Brands
-Table 3 highlights the top 5 attributes mentioned in the discussions, while Table 4 presents the attributes most strongly associated with the top 5 brands.
-
-# Insights for Product & Advertising Managers
-Product and advertising management recommendations are provided for Hyundai, Mazda, and Ford based on the analysis of attributes and brand associations.
-
-# Measuring Aspiration
-The methodology and findings for identifying the most aspirational brand, Toyota, are outlined, along with business implications for the brand.
-
+Usage
+To run the analysis yourself, you will need Python 3 with the following packages installed:
+BeautifulSoup4
+pandas
+matplotlib
+NLTK
