@@ -16,7 +16,8 @@ BMW and Audi are closely mentioned together, indicating competition in luxury or
 Design, performance, value, comfort, and efficiency are the top attributes discussed by consumers.
 ### Aspirational Brand: 
 Toyota emerged as the most aspirational brand, particularly valued for its environmental impact.
-### Dataset
+
+## Dataset
 The dataset comprises 19,749 forum posts from the Edmunds forum, focusing on midsize sedans. The data were scraped using BeautifulSoup and have been compiled into a CSV file for analysis.
 
 ## Usage
