@@ -19,7 +19,7 @@ Toyota emerged as the most aspirational brand, particularly valued for its envir
 ## Dataset
 The dataset comprises 19,749 forum posts from the Edmunds forum, focusing on midsize sedans. The data were scraped using BeautifulSoup and have been compiled into a CSV file for analysis.
 
-Usage
+## Usage
 To run the analysis yourself, you will need Python 3 with the following packages installed:
 BeautifulSoup4
 pandas
